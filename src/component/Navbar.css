@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.4;
+}
+
+.Navbar-container{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    background-color: white;
+}
+
+.nav-menu{
+    display: flex;
+    font-size: 20px;
+    list-style: none;
+}
+
+.nav-links{
+    padding: 0px 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.login-btn{
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.active{
+    color: tomato;
+}
